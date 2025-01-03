@@ -20,9 +20,9 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
-	Name = "Test",
+	Name = "Redz",
 	Callback = function()
-      		print("Ganteng")
+      		print("https://raw.githubusercontent.com/raxoner/raxonhubz/refs/heads/main/raxonhubz")
   	end    
 })
 
