@@ -20,9 +20,9 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
-	Name = "Pilih woi!",
+	Name = "Redz Hub",
 	Callback = function()
-      		print("Pencet")
+      		print("loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()")
   	end    
 })
 
