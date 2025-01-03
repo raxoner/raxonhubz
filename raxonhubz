@@ -9,24 +9,24 @@ OrionLib:MakeNotification({
 	Time = 5
 })
 
-local RaxTab = Window:MakeTab({
+local Tab = Window:MakeTab({
 	Name = "Raxoner Hub",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
-local Section = RaxTab:AddSection({
+local Section = Tab:AddSection({
 	Name = "Raxoner"
 })
 
-RaxTab:AddButton({
+Tab:AddButton({
 	Name = "Pilih woi!",
 	Callback = function()
       		print("Pencet")
   	end    
 })
 
-RaxTab:AddToggle({
+Tab:AddToggle({
 	Name = "Toggle!",
 	Default = false,
 	Callback = function(Value)
@@ -34,7 +34,7 @@ RaxTab:AddToggle({
 	end    
 })
 
-RaxTab:AddColorpicker({
+Tab:AddColorpicker({
 	Name = "Colorpicker",
 	Default = Color3.fromRGB(255, 0, 0),
 	Callback = function(Value)
@@ -42,7 +42,7 @@ RaxTab:AddColorpicker({
 	end	  
 })
 
-RaxTab:AddSlider({
+Tab:AddSlider({
 	Name = "Slider",
 	Min = 0,
 	Max = 20,
