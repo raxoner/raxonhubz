@@ -22,7 +22,7 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "Redz",
 	Callback = function()
-      		print("https://raw.githubusercontent.com/raxoner/raxonhubz/refs/heads/main/raxonhubz")
+      		print("loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()")
   	end    
 })
 
