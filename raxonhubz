@@ -30,7 +30,7 @@ Tab:AddToggle({
 	Name = "Redz",
 	Default = false,
 	Callback = function("Value")
-		print("loadstring(game:HttpGet("https://raw.githubusercontent.com/raxoner/raxonhubz/refs/heads/main/raxonhubz"))()")
+		print("Print")
 	end    
 })
 
