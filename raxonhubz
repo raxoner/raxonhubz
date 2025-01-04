@@ -20,16 +20,16 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
-	Name = "Redz",
+	Name = "Test 1",
 	Callback = function()
-      		print("loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()")
+      		print("loadstring")
   	end    
 })
 
 Tab:AddToggle({
-	Name = "Toggle!",
+	Name = "Redz",
 	Default = false,
-	Callback = function(Value)
+	Callback = function(loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))())
 		print("Pencet")
 	end    
 })
