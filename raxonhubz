@@ -29,8 +29,8 @@ Tab:AddButton({
 Tab:AddToggle({
 	Name = "Redz",
 	Default = false,
-	Callback = function(loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))())
-		print("Pencet")
+	Callback = function("Value")
+		print("loadstring(game:HttpGet("https://raw.githubusercontent.com/raxoner/raxonhubz/refs/heads/main/raxonhubz"))()")
 	end    
 })
 
